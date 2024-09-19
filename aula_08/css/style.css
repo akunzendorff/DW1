@@ -1,0 +1,25 @@
+h1{
+    background-color: #030;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #ffffff;
+    padding: 30px;
+
+}
+
+p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: #380220;
+    background-color: #a38e9a;
+    letter-spacing: 10px;
+    word-break: break-all;
+    column-count: 2;
+    column-gap: 25px;
+    text-align: justify;
+    column-rule-style: double;
+    column-rule-color: rgb(93, 133, 173);
+}

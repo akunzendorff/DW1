@@ -1,0 +1,64 @@
+/* Smartphones (600px para baixo) */
+@media only screen and (max-width: 600px) {
+    body {
+        background: #2735d1;
+    }
+
+    img {
+        width: 375px;
+        filter: grayscale(1);
+    }
+}
+
+/* Dispositivos regulares (mini tablets e alguns smartphones, 600px para cima) */
+@media only screen and (min-width: 600px) {
+    body {
+        background: #318a1b;
+    }
+
+    img {
+        filter: blur(2px)
+    }
+
+}
+
+/*Dispostivos Médios (tablets em modo wide, 768px para cima) */
+@media only screen and (min-width: 768px) {
+    body {
+        background: #c0a821;
+    }
+
+    img {
+        filter: brightness(3)
+    }
+
+}
+
+/* Dispostivos Largos (notebooks e desktops, 992px para cima) */
+@media only screen and (min-width: 992px) {
+    body {
+        background: #ff0000;
+    }
+
+    img {
+        filter: contrast(0.2)
+    }
+
+}
+
+/* Dispositivos grandes (telas maiores que notebooks, desktops e smart TVs, 1200px para cima) */
+@media only screen and (min-width: 1200px) {
+    body {
+        background: #db30c7;
+    }
+
+    img {
+        filter: drop-shadow(10px 5px 1px #000000)
+    }
+
+}
+
+/* Exemplo customizado */
+/*@media only screen and (max-width:1920px) and (min-width: 1080px) {
+
+}*/

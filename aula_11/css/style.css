@@ -1,0 +1,23 @@
+body{
+    background-color: #0ffff0;
+}
+
+#anima-div{
+    width: 250px;
+    height: 250px;
+    background: #0fff00;
+    position: relative;
+    border-radius: 50%;
+    animation: mov-div 10s infinite;
+}
+
+@keyframes mov-div {
+    0% {margin-left: 0px;}
+    10% {margin-left: 500px;}
+    70% {margin-left: 500px}
+    70% {margin-top: 500px}
+    85% {margin-top: 500px}
+    85% {margin-left: 0px}
+    100%{margin-top:0px}
+    
+}

@@ -1,0 +1,40 @@
+body{
+    background: #752323;
+}
+
+#anima-div{
+    width: 250px;
+    height: 250px;
+    background: #61c55a;
+    position: relative;
+    border-radius: 50%;
+    animation: mov-div 40s infinite;
+}
+
+@keyframes mov-div {
+    0% {margin-left:0px}
+    5% {margin-left:300px}
+    10% {margin-left:300px}
+    20% {margin-left:250px}
+    30% {margin-left:250px}
+    40% {margin-left:900px}
+    50% {margin-left:900px}
+    60% {margin-left:600px}
+    70% {margin-left:600px}
+    80% {margin-left:300px}
+    90% {margin-left:300px}
+    100% {margin-left:0px}
+
+    0% {margin-top:0px}
+    10% {margin-top:300px}
+    20% {margin-top:300px}
+    30% {margin-top:400px}
+    40% {margin-top:400px}
+    50% {margin-top:600px}
+    60% {margin-top:600px}
+    70% {margin-top:500px}
+    80% {margin-top:500px}
+    90% {margin-top:900px}
+    100% {margin-top:0px}
+
+}
