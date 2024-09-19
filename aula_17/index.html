@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        marvel="Marvel";
+        dc="DC";
+        heroim="Hulk";
+        heroidc="BatMan";
+        universo="DC";
+        if(universo=="Marvel"){
+            document.write("O universo é "+marvel);
+            if(heroim=="Hulk"){
+                document.write(" e o herói é "+heroim);
+            }else{
+                document.write("Herói inválido");
+        }
+    }else if(universo=="DC"){
+            document.write("O universo é "+dc);
+            if(heroidc=="BatMan"){
+                document.write(" e o herói é "+heroidc);
+            }else{
+                document.write("Herói inválido");
+            }
+        }else{
+            document.write("Universo inválido");
+        }
+
+    </script>
+</body>
+</html>

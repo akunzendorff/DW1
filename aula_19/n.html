@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        heroi="Flash";
+        universo="DC";
+        repeticoes=3;
+        if(universo=="Marvel"){
+            for(x=1;x<=repeticoes;x++){
+                document.write("O universo é da Marvel.");
+                if(heroi=="Hulk"){
+                    document.write(" E o herói é Hulk.<hr><img src='img/hulk.jpeg'><br>");
+                }else if(heroi=="Wolverine"){
+                    document.write(" E o herói é Wolverine.<hr><img src='img/Wolverine.webp'><br>");
+                }else{
+                    document.write(" E o herói é inválido.<hr>");
+                }
+            }
+        }else if(universo=="DC"){
+            for(x=1;x<=repeticoes;x++){
+                document.write("O universo é da DC.");
+                if(heroi=="BatMan"){
+                    document.write(" E o herói é BatMan.<hr><img src='img/batman.jpeg'><br>");
+                }else if(heroi=="Flash"){
+                    document.write(" E o herói é Flash.<hr><img src='img/flash.jpg'><br>");
+                }else{
+                    document.write(" E o herói é inválido<hr>");
+                }
+            }
+        }else{
+            document.write("Universo inválido");
+        }
+
+    </script>
+
+</body>
+</html>

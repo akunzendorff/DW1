@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var universo = document.write("Digite o Universo escolhido:");
+
+        if(universo=="Marvel"){
+            document.write("O universo é "+universo);
+            var heroi = document.write("Digite o Herói escolhido:");
+
+            if(heroim=="Hulk"){
+                document.write(" e o herói é "+heroi);
+                mostrar = prompt("Quantas vezes deseja que o herói apareça na tela?");
+                for(repetir=0; repetir != mostrar; mostrar++){
+                    document.write(img+"<br>");
+                }
+            }else{
+                document.write("Herói inválido");
+        }
+    }else if(universo=="DC"){
+            document.write("O universo é "+universo);
+            var heroi = document.write("Digite o Herói escolhido:");
+
+            if(heroidc=="BatMan"){
+                document.write(" e o herói é "+heroi);
+                var mostrar = document.write("Quantas vezes deseja que o herói apareça na tela?");
+                for(repetir=0; repetir != mostrar; mostrar++){
+                    document.write(img+"<br>");
+                }
+            }else{
+                document.write("Herói inválido");
+            }
+        }else{
+            document.write("Universo inválido");
+        }
+
+    </script>
+</body>
+</html>
